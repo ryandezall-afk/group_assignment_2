@@ -1,0 +1,348 @@
+
+Welcome to DriveMasters
+Please choose any option below
+---------------------------------
+1	Purchase Vehicle
+2	Display Vehicles by Type
+3	Display Vehicles by Subtype
+4	Produce a Random List of Vehicles
+5	Save & Exit
+
+Enter option: 1
+Enter CarId: 121587921
+
+The Vehicle "Sedan Luxury" has been checked out.
+
+Welcome to DriveMasters
+Please choose any option below
+---------------------------------
+1	Purchase Vehicle
+2	Display Vehicles by Type
+3	Display Vehicles by Subtype
+4	Produce a Random List of Vehicles
+5	Save & Exit
+
+Enter option: 2
+Enter vehicle type to search for: (Sedan, SUV, Hatchback, Pickup Truck and Hybrid car) sedan
+
+Matching vehicles:
+Car ID: 121587921
+Vehicle Type: Sedan
+Sub Type: Luxury
+Speed: 180
+Fuel: 50.0
+Number of Seats: 5
+Year: 2020
+DriveTrain: AWD
+Price: 25000
+Available: 7
+Trunk Size: Large/spacious Trunk
+
+Car ID: 138479100
+Vehicle Type: Sedan
+Sub Type: Mid-Size
+Speed: 190
+Fuel: 55.0
+Number of Seats: 5
+Year: 2021
+DriveTrain: AWD
+Price: 27000
+Available: 9
+Trunk Size: Moderate Trunk
+
+Car ID: 136284017
+Vehicle Type: Sedan
+Sub Type: Sports
+Speed: 180
+Fuel: 40.0
+Number of Seats: 5
+Year: 2017
+DriveTrain: FWD
+Price: 15000
+Available: 5
+Trunk Size: Small Trunk
+
+Car ID: 126854103
+Vehicle Type: Sedan
+Sub Type: Luxury
+Speed: 200
+Fuel: 60.0
+Number of Seats: 5
+Year: 2022
+DriveTrain: AWD
+Price: 45000
+Available: 3
+Trunk Size: Large/spacious Trunk
+
+
+Welcome to DriveMasters
+Please choose any option below
+---------------------------------
+1	Purchase Vehicle
+2	Display Vehicles by Type
+3	Display Vehicles by Subtype
+4	Produce a Random List of Vehicles
+5	Save & Exit
+
+Enter option: 3
+#	Sub Type
+1	Sedan
+2	HatchBack
+3	SUV
+4	Hybrid
+5	Pickup Truck
+
+Enter type of vehicle: 1
+
+Enter a format (L for Large/Spacious trunk, S for Small Trunk, or M for Moderate Trunk): s
+Matching Vehicles:
+Car ID: 136284017
+Vehicle Type: Sedan
+Sub Type: Sports
+Speed: 180
+Fuel: 40.0
+Number of Seats: 5
+Year: 2017
+DriveTrain: FWD
+Price: 15000
+Available: 5
+Trunk Size: Small Trunk
+
+
+Welcome to DriveMasters
+Please choose any option below
+---------------------------------
+1	Purchase Vehicle
+2	Display Vehicles by Type
+3	Display Vehicles by Subtype
+4	Produce a Random List of Vehicles
+5	Save & Exit
+
+Enter option: 3
+#	Sub Type
+1	Sedan
+2	HatchBack
+3	SUV
+4	Hybrid
+5	Pickup Truck
+
+Enter type of vehicle: 2
+
+Enter HatchType (S for Standard Liftgate, T for Split Liftgate, P for Power Liftgate): p
+Matching Vehicles:
+Car ID: 263914872
+Vehicle Type: Hatchback
+Sub Type: Economy
+Speed: 160
+Fuel: 45.0
+Number of Seats: 5
+Year: 2019
+DriveTrain: FWD
+Price: 18000
+Available: 10
+Hatch Type: Power Liftgate
+
+Car ID: 258723904
+Vehicle Type: Hatchback
+Sub Type: Luxury
+Speed: 160
+Fuel: 48.0
+Number of Seats: 5
+Year: 2022
+DriveTrain: AWD
+Price: 35000
+Available: 15
+Hatch Type: Power Liftgate
+
+
+Welcome to DriveMasters
+Please choose any option below
+---------------------------------
+1	Purchase Vehicle
+2	Display Vehicles by Type
+3	Display Vehicles by Subtype
+4	Produce a Random List of Vehicles
+5	Save & Exit
+
+Enter option: 3
+#	Sub Type
+1	Sedan
+2	HatchBack
+3	SUV
+4	Hybrid
+5	Pickup Truck
+
+Enter type of vehicle: 3
+
+Enter Drivetrain (AWD for All Wheel Drive, 4WD for Four Wheel Drive): AWD
+Matching Vehicles:
+Car ID: 374512039
+Vehicle Type: SUV
+Sub Type: Compact
+Speed: 160
+Fuel: 70.0
+Number of Seats: 7
+Year: 2018
+DriveTrain: AWD
+Price: 35000
+Available: 4
+
+Car ID: 303627541
+Vehicle Type: SUV
+Sub Type: Mid-Size
+Speed: 150
+Fuel: 75.0
+Number of Seats: 5
+Year: 2017
+DriveTrain: AWD
+Price: 32000
+Available: 5
+
+Car ID: 391736508
+Vehicle Type: SUV
+Sub Type: Compact
+Speed: 155
+Fuel: 72.0
+Number of Seats: 5
+Year: 2020
+DriveTrain: AWD
+Price: 32000
+Available: 6
+
+
+Welcome to DriveMasters
+Please choose any option below
+---------------------------------
+1	Purchase Vehicle
+2	Display Vehicles by Type
+3	Display Vehicles by Subtype
+4	Produce a Random List of Vehicles
+5	Save & Exit
+
+Enter option: 3
+#	Sub Type
+1	Sedan
+2	HatchBack
+3	SUV
+4	Hybrid
+5	Pickup Truck
+
+Enter type of vehicle: 4
+
+Enter a PowerTrain (E for Series Hybrid , A for Parallel Hybrid, PHEV for Plug-in Hybrid): PHEV
+Matching Vehicles:
+Car ID: 531472965
+Vehicle Type: Hybrid
+Sub Type: Crossover
+Speed: 170
+Fuel: 52.0
+Number of Seats: 5
+Year: 2023
+DriveTrain: AWD
+Price: 30000
+Available: 12
+Power Train: Plug-in Hybrid
+Electric Range: 60
+
+
+Welcome to DriveMasters
+Please choose any option below
+---------------------------------
+1	Purchase Vehicle
+2	Display Vehicles by Type
+3	Display Vehicles by Subtype
+4	Produce a Random List of Vehicles
+5	Save & Exit
+
+Enter option: 3
+#	Sub Type
+1	Sedan
+2	HatchBack
+3	SUV
+4	Hybrid
+5	Pickup Truck
+
+Enter type of vehicle: 5
+
+Enter CargoBeds (SB for Short Beds , EB for Extended Beds, DB for Dump Beds): EB
+Matching Vehicles:
+Car ID: 641289354
+Vehicle Type: Pickup Truck
+Sub Type: Full-Size
+Speed: 140
+Fuel: 80.0
+Number of Seats: 2
+Year: 2021
+DriveTrain: 4WD
+Price: 30000
+Available: 10
+Cargo Capacity: 1500
+Cargo Beds: Extended Bed
+
+Car ID: 612874560
+Vehicle Type: Pickup Truck
+Sub Type: Extended Cab
+Speed: 120
+Fuel: 90.0
+Number of Seats: 2
+Year: 2019
+DriveTrain: 4WD
+Price: 35000
+Available: 11
+Cargo Capacity: 2000
+Cargo Beds: Extended Bed
+
+
+Welcome to DriveMasters
+Please choose any option below
+---------------------------------
+1	Purchase Vehicle
+2	Display Vehicles by Type
+3	Display Vehicles by Subtype
+4	Produce a Random List of Vehicles
+5	Save & Exit
+
+Enter option: 4
+Enter number of vehicles to display: 2
+
+Random Vehicles:
+Car ID: 612874560
+Vehicle Type: Pickup Truck
+Sub Type: Extended Cab
+Speed: 120
+Fuel: 90.0
+Number of Seats: 2
+Year: 2019
+DriveTrain: 4WD
+Price: 35000
+Available: 11
+Cargo Capacity: 2000
+Cargo Beds: Extended Bed
+----------------------------------
+Car ID: 295847620
+Vehicle Type: Hatchback
+Sub Type: Economy
+Speed: 170
+Fuel: 43.0
+Number of Seats: 5
+Year: 2018
+DriveTrain: FWD
+Price: 17000
+Available: 5
+Hatch Type: Split Liftgate
+----------------------------------
+
+Welcome to DriveMasters
+Please choose any option below
+---------------------------------
+1	Purchase Vehicle
+2	Display Vehicles by Type
+3	Display Vehicles by Subtype
+4	Produce a Random List of Vehicles
+5	Save & Exit
+
+Enter option: 5
+
+Saving Vehicles... Done!
+
+Goodbye!
