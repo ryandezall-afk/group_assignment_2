@@ -76,12 +76,23 @@ public abstract class Vehicle {
 	public int getQuantity() {
 		return quantity;
 	}
+	
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
 
 	@Override
 	public String toString() {
-		return "Car ID: " + carID + "\nVehicle Type: " + vehicleType + "\nSub Type: " + subType + "\nSpeed=" + speed
-				+ "\nFuel=" + fuel + "\nSeats: " + seats + "\nYear: " + year + "\nDriveTrain: " + drivetrain + "\nPrice: "
-				+ price + "\nAvailable: " + quantity;
+		return "Car ID: " + carID
+				+ "\nVehicle Type: " + vehicleType
+				+ "\nSub Type: " + subType
+				+ "\nSpeed: " + speed
+				+ "\nFuel: " + fuel
+				+ "\nNumber of Seats: " + seats
+				+ "\nYear: " + year
+				+ "\nDriveTrain: " + drivetrain
+				+ "\nPrice: " + price
+				+ "\nAvailable: " + quantity;
 	}
 	
 	

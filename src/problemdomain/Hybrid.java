@@ -11,6 +11,14 @@ public class Hybrid extends Vehicle {
 		this.electricRange = electricRange;
 	}
 
+	public String getPowerTrainCode() {
+		return powerTrain;
+	}
+	
+	public int getElectricRange() {
+		return electricRange;
+	}
+
 	public String getPowerTrainType() {
 		switch(powerTrain.toUpperCase()) {
 		case "E": return "Series Hybrid";

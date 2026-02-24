@@ -11,6 +11,14 @@ public class Truck extends Vehicle {
 		this.cargoCapacity = cargoCapacity;
 	}
 	
+	public String getCargoBedCode() {
+		return cargoBed;
+	}
+	
+	public String getCargoCapacity() {
+		return cargoCapacity;
+	}
+	
 	public String getCargoBedType() {
 		switch(cargoBed.toUpperCase()) {
 		case "SB": return "Short Bed";
@@ -22,6 +30,6 @@ public class Truck extends Vehicle {
 		
 	@Override
 	public String toString() {
-		return super.toString() + "\nCargo Bed: " + getCargoBedType() + "\nCargo Capacity: " + cargoCapacity;
+		return super.toString() + "\nCargo Capacity: " + cargoCapacity + "\nCargo Beds: " + getCargoBedType();
 		}
 	}

@@ -9,6 +9,10 @@ public class Hatchback extends Vehicle {
 		this.hatchType = hatchType;
 	}
 	
+	public String getHatchTypeCode() {
+		return hatchType;
+	}
+	
 	public String getHatchTypeLabel() {
 		switch(hatchType.toUpperCase()) {
 		case "T": return "Split Liftgate";

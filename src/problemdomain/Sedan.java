@@ -9,11 +9,15 @@ public class Sedan extends Vehicle {
 		this.trunkSize = trunkSize;
 	}
 	
+	public String getTrunkCode() {
+		return trunkSize;
+	}
+	
 	public String getTrunkLabelSize() {
 		switch(trunkSize.toUpperCase()) {
-		case "L": return "Large/spacious trunk";
-		case "S": return "Small trunk";
-		case "M": return "Moderate trunk";
+		case "L": return "Large/spacious Trunk";
+		case "S": return "Small Trunk";
+		case "M": return "Moderate Trunk";
 		default: return "Unknown";
 		}
 	}
